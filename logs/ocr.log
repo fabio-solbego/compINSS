@@ -1,0 +1,697 @@
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T20:16:14.124Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761768974060_EXTRATO__1_.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T20:16:14.126Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T20:16:14.134Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T20:16:20.030Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T20:16:20.042Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T20:16:20.044Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T20:16:20.045Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T20:16:20.046Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T20:25:28.479Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761769528393_EXTRATO.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T20:25:28.481Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T20:25:28.484Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T20:25:33.235Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T20:25:33.235Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T20:25:33.236Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T20:25:33.237Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T20:25:33.242Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T20:37:01.531Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761770221481_EXTRATO.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T20:37:01.540Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T20:37:01.543Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T20:37:07.230Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T20:37:07.231Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T20:37:07.231Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T20:37:07.232Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T20:37:07.232Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T20:45:15.648Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761770715593_EXTRATO.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T20:45:15.650Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T20:45:15.658Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T20:45:20.958Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T20:45:20.962Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T20:45:20.962Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T20:45:20.963Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T20:45:20.964Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T20:48:55.252Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761770935216_EXTRATO.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T20:48:55.262Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T20:48:55.265Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T20:49:00.021Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T20:49:00.072Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T20:49:00.073Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T20:49:00.074Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T20:49:00.087Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T20:53:01.527Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761771181095_EXTRATO.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T20:53:01.831Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T20:53:01.891Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T20:53:06.821Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T20:53:06.849Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T20:53:06.849Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T20:53:06.849Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T20:53:06.850Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T20:58:13.836Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761771493774_EXTRATO.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T20:58:13.837Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T20:58:13.840Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T20:58:18.836Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T20:58:18.837Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T20:58:18.838Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T20:58:18.839Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T20:58:18.839Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-29T21:00:05.683Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\1761771605183_EXTRATO.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-29T21:00:05.684Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-29T21:00:05.685Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-29T21:00:11.795Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-29T21:00:11.799Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-29T21:00:11.800Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-29T21:00:11.801Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-29T21:00:11.802Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T11:31:16.145Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761823876108-828684202.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T11:31:16.146Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T11:31:16.153Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T11:31:21.235Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T11:31:21.239Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T11:31:21.240Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T11:31:21.241Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T11:31:21.242Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T11:36:40.859Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761824200801-857981824.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T11:36:40.860Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T11:36:40.862Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T11:36:45.835Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T11:36:45.841Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T11:36:45.842Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T11:36:45.843Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T11:36:45.844Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T11:38:55.819Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761824335771-951616047.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T11:38:55.820Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T11:38:55.822Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T11:39:00.588Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T11:39:00.589Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T11:39:00.590Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T11:39:00.590Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T11:39:00.590Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T11:50:02.876Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761825002068-291717342.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T11:50:02.890Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T11:50:02.895Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T11:50:08.235Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T11:50:08.238Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T11:50:08.239Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T11:50:08.240Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T11:50:08.242Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T11:54:21.116Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761825260631-313941980.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T11:54:21.117Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T11:54:21.126Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T11:54:25.934Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T11:54:25.944Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T11:54:25.945Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T11:54:25.946Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T11:54:25.947Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T11:55:03.745Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761825303580-110736733.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T11:55:03.746Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T11:55:03.747Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T11:55:08.382Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T11:55:08.383Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T11:55:08.391Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T11:55:08.392Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T11:55:08.393Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T12:10:14.626Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761826214321-872595172.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T12:10:14.639Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T12:10:14.643Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T12:10:19.862Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T12:10:19.863Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T12:10:19.863Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T12:10:19.864Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T12:10:19.864Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T12:19:28.303Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761826768068-445482963.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T12:19:28.308Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T12:19:28.309Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T12:19:32.857Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T12:19:32.858Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T12:19:32.858Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T12:19:32.859Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T12:19:32.864Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T12:24:55.549Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761827095325-612335675.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T12:24:55.550Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T12:24:55.556Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T12:24:59.757Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T12:24:59.759Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T12:24:59.760Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T12:24:59.761Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T12:24:59.762Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T12:42:46.297Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761828163070-490752739.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T12:42:46.298Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T12:42:46.300Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T12:42:50.959Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T12:42:50.961Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T12:42:50.961Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T12:42:50.962Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T12:42:50.962Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T12:47:13.607Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761828431485-507707642.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T12:47:13.608Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T12:47:13.610Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T12:47:18.538Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T12:47:18.724Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T12:47:18.725Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T12:47:18.726Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T12:47:18.727Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T12:47:49.151Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761828465547-431373388.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T12:47:49.152Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T12:47:49.161Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T12:47:53.479Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T12:47:53.480Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T12:47:53.480Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T12:47:53.481Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T12:47:53.481Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T13:06:21.382Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761829581128-186769467.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T13:06:21.385Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T13:06:21.387Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T13:06:26.887Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T13:06:27.031Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T13:06:27.032Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T13:06:27.033Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T13:06:27.034Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T13:44:36.321Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761831875747-757769150.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T13:44:36.324Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T13:44:36.330Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T13:44:41.097Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T13:44:41.102Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T13:44:41.103Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T13:44:41.104Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T13:44:41.105Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T14:29:51.531Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761834591332-492402935.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T14:29:51.532Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T14:29:51.534Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T14:29:56.568Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T14:29:56.569Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T14:29:56.575Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T14:29:56.576Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T14:29:56.578Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T14:34:17.624Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761834857471-525855878.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T14:34:17.625Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T14:34:17.626Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T14:34:22.109Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T14:34:22.109Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T14:34:22.115Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T14:34:22.116Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T14:34:22.117Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T14:39:11.727Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761835151325-872954819.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T14:39:11.728Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T14:39:11.736Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T14:39:16.084Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T14:39:16.087Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T14:39:16.087Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T14:39:16.088Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T14:39:16.088Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T14:43:38.207Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761835417974-645957682.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T14:43:38.209Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T14:43:38.217Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T14:43:42.801Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T14:43:42.802Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T14:43:42.803Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T14:43:42.803Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T14:43:42.804Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T14:58:21.860Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761836301586-277437286.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T14:58:21.863Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T14:58:21.865Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T15:00:44.282Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761836444121-959684951.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T15:00:44.284Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T15:00:44.285Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T15:02:29.855Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T15:02:29.859Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T15:02:29.860Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T15:02:29.860Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T15:02:29.861Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T15:04:00.565Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T15:04:00.568Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T15:04:00.569Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T15:04:00.570Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T15:04:00.572Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T15:27:41.356Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761838059445-907143000.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T15:27:41.490Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T15:27:41.536Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T15:27:46.707Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T15:27:46.810Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T15:27:46.810Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T15:27:46.815Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T15:27:46.818Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T15:31:25.853Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761838285621-187272874.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T15:31:25.857Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T15:31:25.860Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T15:31:30.557Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T15:31:30.558Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T15:31:30.558Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T15:31:30.559Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T15:31:30.559Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T15:40:42.098Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761838841617-131504214.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T15:40:42.102Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T15:40:42.105Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T15:40:47.800Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T15:40:47.909Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T15:40:47.912Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T15:40:47.913Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T15:40:47.970Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T16:35:46.405Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761842146108-624217744.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T16:35:46.416Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T16:35:46.419Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T16:35:51.556Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T16:35:51.641Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T16:35:51.652Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T16:35:51.653Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T16:35:51.654Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T18:30:40.461Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761849040062-49918851.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T18:30:40.463Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T18:30:40.466Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T18:30:45.966Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T18:30:45.967Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T18:30:45.967Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T18:30:45.968Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T18:30:45.975Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T18:45:02.554Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761849902357-127251827.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T18:45:02.556Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T18:45:02.558Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T18:45:08.038Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T18:45:08.041Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T18:45:08.042Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T18:45:08.043Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T18:45:08.044Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T18:58:55.112Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761850732573-115992897.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T18:58:55.114Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T18:58:55.115Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T18:59:00.780Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T18:59:00.875Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T18:59:00.876Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T18:59:00.877Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T18:59:00.878Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T19:20:47.553Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761852047066-410240324.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T19:20:47.554Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T19:20:47.556Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T19:20:53.532Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T19:20:53.536Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T19:20:53.538Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T19:20:53.538Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T19:20:53.539Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T19:26:17.220Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761852376160-602372471.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T19:26:17.238Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T19:26:17.263Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T19:26:23.405Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T19:26:23.451Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T19:26:23.452Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T19:26:23.452Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T19:26:23.454Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T19:32:29.700Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761852748945-356040706.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T19:32:29.707Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T19:32:29.709Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T19:32:35.262Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T19:32:35.264Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T19:32:35.265Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T19:32:35.266Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T19:32:35.267Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T19:44:47.209Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761853486954-215307249.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T19:44:47.222Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T19:44:47.236Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T19:44:51.922Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T19:44:51.922Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T19:44:51.923Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T19:44:51.923Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T19:44:51.924Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T19:53:42.294Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761854021421-9296960.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T19:53:42.695Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T19:53:42.906Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T19:53:49.252Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T19:53:49.589Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T19:53:49.590Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T19:53:49.622Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T19:53:49.639Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T20:30:43.343Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761856242730-273329591.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T20:30:43.361Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T20:30:43.428Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-30T20:59:50.956Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761857990748-306714431.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-30T20:59:50.957Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-30T20:59:50.962Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-30T20:59:55.770Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-30T20:59:55.828Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-30T20:59:55.829Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-30T20:59:55.830Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-30T20:59:55.831Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T11:12:58.354Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761909177685-788599391.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T11:12:58.358Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T11:12:58.361Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T11:13:03.682Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T11:13:03.683Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T11:13:03.683Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T11:13:03.683Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T11:13:03.684Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T11:55:34.549Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761911734331-619699116.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T11:55:34.552Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T11:55:34.553Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T11:55:40.885Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T11:55:40.887Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T11:55:40.888Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T11:55:40.891Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T11:55:40.892Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T12:30:13.322Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761913812724-197568980.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T12:30:13.325Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T12:30:13.326Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T12:30:18.528Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T12:30:18.570Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T12:30:18.573Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T12:30:18.575Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T12:30:18.609Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T12:42:21.527Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761914540676-464476911.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T12:42:21.530Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T12:42:21.532Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T12:44:04.945Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T12:44:04.951Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T12:44:04.952Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T12:44:04.952Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T12:44:04.954Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T12:59:16.261Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761915555378-711918980.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T12:59:16.263Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T12:59:16.279Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T12:59:21.664Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T12:59:21.669Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T12:59:21.670Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T12:59:21.670Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T12:59:21.672Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T13:49:45.462Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761918584023-238540648.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T13:49:45.470Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T13:49:45.589Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T13:49:50.485Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T13:49:50.626Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T13:49:50.627Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T13:49:50.628Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T13:49:50.631Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T14:19:26.322Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761920366150-502093808.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T14:19:26.324Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T14:19:26.325Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T14:19:31.006Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T14:19:31.006Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T14:19:31.007Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T14:19:31.007Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T14:19:31.008Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T15:47:03.318Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761925620927-175950084.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T15:47:03.320Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T15:47:03.338Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T15:52:15.490Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T15:52:15.542Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T15:52:15.542Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T15:52:15.543Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T15:52:15.554Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T20:59:01.936Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761944340548-400614520.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T20:59:01.951Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T20:59:01.961Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T20:59:06.850Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T20:59:07.001Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T20:59:07.355Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T20:59:07.771Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T20:59:07.940Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-10-31T21:36:08.559Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1761946568358-178314433.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-10-31T21:36:08.575Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-10-31T21:36:08.584Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-10-31T21:36:13.753Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-10-31T21:36:13.755Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-10-31T21:36:13.756Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-10-31T21:36:13.756Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-10-31T21:36:13.757Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T11:29:55.945Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762169395722-910977434.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T11:29:55.945Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T11:29:55.954Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T11:30:01.743Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T11:30:01.743Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T11:30:01.744Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T11:30:01.744Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T11:30:01.745Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T13:26:53.539Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762176413205-69688461.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T13:26:53.540Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T13:26:53.543Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T13:26:58.537Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T13:26:58.539Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T13:26:58.540Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T13:26:58.542Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T13:26:58.543Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T14:25:23.179Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762179922954-901248684.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T14:25:23.194Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T14:25:23.196Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T14:25:28.879Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T14:25:28.880Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T14:25:28.880Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T14:25:28.881Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T14:25:28.882Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T15:11:20.939Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762182680572-656013578.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T15:11:20.949Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T15:11:20.953Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T15:11:26.233Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T15:11:26.237Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T15:11:26.238Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T15:11:26.269Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T15:11:26.271Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T15:33:32.699Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762184012442-222025157.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T15:33:32.701Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T15:33:32.709Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T15:33:37.581Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T15:33:37.582Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T15:33:37.583Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T15:33:37.583Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T15:33:37.583Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T17:41:53.892Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762191713686-143346153.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T17:41:53.894Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T17:41:53.896Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T17:41:59.467Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T17:41:59.468Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T17:41:59.469Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T17:41:59.469Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T17:41:59.470Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T18:06:24.653Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762193184154-768055670.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T18:06:24.656Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T18:06:24.664Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T18:06:30.621Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T18:06:30.624Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T18:06:30.625Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T18:06:30.625Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T18:06:30.626Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T18:14:07.508Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762193647302-872996735.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T18:14:07.513Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T18:14:07.522Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T18:14:13.020Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T18:14:13.022Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T18:14:13.023Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T18:14:13.024Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T18:14:13.025Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T18:27:00.010Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762194419816-435956573.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T18:27:00.012Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T18:27:00.016Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T18:27:05.586Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T18:27:05.595Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T18:27:05.595Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T18:27:05.596Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T18:27:05.597Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-03T19:33:39.504Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762198414712-799683564.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-03T19:33:39.520Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-03T19:33:39.537Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-03T19:33:46.685Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-03T19:33:46.920Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-03T19:33:46.928Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-03T19:33:46.942Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-03T19:33:46.960Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:24:53.752Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762255493542-234325038.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:24:53.754Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:24:53.756Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:24:58.632Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:24:58.632Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:24:58.633Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:24:58.633Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:24:58.634Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:26:58.283Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762255617997-376809399.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:26:58.284Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:26:58.286Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:27:03.178Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:27:03.181Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:27:03.182Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:27:03.183Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:27:03.184Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:27:40.601Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762255660437-8054771.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:27:40.601Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:27:40.603Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:27:45.455Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:27:45.456Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:27:45.456Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:27:45.456Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:27:45.457Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:28:51.240Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762255731048-452686602.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:28:51.241Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:28:51.242Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:28:56.148Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:28:56.149Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:28:56.149Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:28:56.149Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:28:56.151Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:29:51.873Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762255791599-440657115.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:29:51.874Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:29:51.875Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:29:56.827Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:29:56.828Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:29:56.829Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:29:56.829Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:29:56.830Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:34:50.917Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762256090715-122127554.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:34:50.930Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:34:50.933Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:34:57.487Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:34:57.489Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:34:57.489Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:34:57.490Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:34:57.496Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:42:22.187Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762256541628-437410616.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:42:22.188Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:42:22.189Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:42:26.823Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:42:26.885Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:42:26.885Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:42:26.885Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:42:26.886Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:47:11.904Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762256831652-126231415.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:47:11.905Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:47:11.916Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:47:17.255Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:47:17.256Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:47:17.256Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:47:17.257Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:47:17.257Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:52:30.818Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762257150655-542768473.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:52:30.819Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:52:30.821Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:52:36.367Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:52:36.369Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:52:36.370Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:52:36.372Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:52:36.372Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:56:59.214Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762257418898-599924726.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:56:59.215Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:56:59.216Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:57:04.492Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:57:04.496Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:57:04.496Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:57:04.496Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:57:04.497Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T11:59:04.265Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762257544072-897637091.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T11:59:04.267Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T11:59:04.269Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T11:59:09.283Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T11:59:09.317Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T11:59:09.318Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T11:59:09.319Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T11:59:09.320Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T12:59:33.506Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762261173345-126162512.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T12:59:33.508Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T12:59:33.509Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T13:01:21.741Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T13:01:21.742Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T13:01:21.743Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T13:01:21.743Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T13:01:21.743Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:11:02.349Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762261862172-568555565.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:11:02.350Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:11:02.351Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T13:11:06.952Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T13:11:06.952Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T13:11:06.953Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T13:11:06.953Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T13:11:06.953Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:12:52.837Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762261972470-715914978.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:12:52.837Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:12:52.838Z"}
+{"level":"error","message":"Erro no OCR Space: Falha no processamento OCR","stack":"Error: Falha no processamento OCR\n    at OCRService.extractTextFromPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OCRService.processWithFallback (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:154:25)\n    at async processPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:196:23)\n    at async Object.processFile (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:57:17)\n    at async C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\routes\\uploadRoutes.js:107:21","timestamp":"2025-11-04T13:12:55.611Z"}
+{"level":"warn","message":"OCR Space falhou, usando método tradicional:","timestamp":"2025-11-04T13:12:55.616Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:13:16.974Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762261996811-568238719.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:13:16.975Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:13:16.975Z"}
+{"level":"error","message":"Erro no OCR Space: Falha no processamento OCR","stack":"Error: Falha no processamento OCR\n    at OCRService.extractTextFromPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OCRService.processWithFallback (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:154:25)\n    at async processPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:196:23)\n    at async Object.processFile (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:57:17)\n    at async C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\routes\\uploadRoutes.js:107:21","timestamp":"2025-11-04T13:13:19.581Z"}
+{"level":"warn","message":"OCR Space falhou, usando método tradicional:","timestamp":"2025-11-04T13:13:19.583Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:18:21.797Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762262301441-551352833.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:18:21.803Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:18:21.805Z"}
+{"level":"error","message":"Erro no OCR Space: Falha no processamento OCR","stack":"Error: Falha no processamento OCR\n    at OCRService.extractTextFromPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OCRService.processWithFallback (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:154:25)\n    at async processPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:196:23)\n    at async Object.processFile (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:57:17)\n    at async C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\routes\\uploadRoutes.js:107:21","timestamp":"2025-11-04T13:18:24.720Z"}
+{"level":"warn","message":"OCR Space falhou, usando método tradicional:","timestamp":"2025-11-04T13:18:24.722Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:23:57.868Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762262637652-246292801.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:23:57.868Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:23:57.875Z"}
+{"level":"error","message":"Erro no OCR Space: Falha no processamento OCR","stack":"Error: Falha no processamento OCR\n    at OCRService.extractTextFromPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OCRService.processWithFallback (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:154:25)\n    at async processPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:196:23)\n    at async Object.processFile (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:57:17)\n    at async C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\routes\\uploadRoutes.js:107:21","timestamp":"2025-11-04T13:24:00.536Z"}
+{"level":"warn","message":"OCR Space falhou, usando método tradicional:","timestamp":"2025-11-04T13:24:00.538Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:25:57.505Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762262757320-212491271.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:25:57.508Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:25:57.510Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2697,"timestamp":"2025-11-04T13:26:03.953Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":282,"timestamp":"2025-11-04T13:26:03.953Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":2158,"timestamp":"2025-11-04T13:26:03.954Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T13:26:03.954Z","totalPages":3,"totalTextLength":5143}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T13:26:03.955Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:36:36.721Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762263396522-532146430.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:36:36.722Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:36:36.738Z"}
+{"level":"error","message":"Erro no OCR Space: Falha no processamento OCR","stack":"Error: Falha no processamento OCR\n    at OCRService.extractTextFromPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OCRService.processWithFallback (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:154:25)\n    at async processPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:196:23)\n    at async Object.processFile (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:57:17)\n    at async C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\routes\\uploadRoutes.js:107:21","timestamp":"2025-11-04T13:38:40.754Z"}
+{"level":"warn","message":"OCR Space falhou, usando método tradicional:","timestamp":"2025-11-04T13:38:40.756Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:43:18.599Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762263798349-418128313.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:43:18.601Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:43:18.609Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2697,"timestamp":"2025-11-04T13:46:14.596Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":282,"timestamp":"2025-11-04T13:46:14.599Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":2158,"timestamp":"2025-11-04T13:46:14.599Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T13:46:14.599Z","totalPages":3,"totalTextLength":5143}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T13:46:14.600Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T13:48:45.057Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762264124774-688177502.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T13:48:45.058Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T13:48:45.060Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2697,"timestamp":"2025-11-04T13:50:13.829Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":282,"timestamp":"2025-11-04T13:50:13.832Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":2158,"timestamp":"2025-11-04T13:50:13.833Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T13:50:13.833Z","totalPages":3,"totalTextLength":5143}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T13:50:13.834Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T14:31:57.405Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762266717164-993880934.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T14:31:57.408Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T14:31:57.416Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2697,"timestamp":"2025-11-04T14:32:05.090Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":282,"timestamp":"2025-11-04T14:32:05.092Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":2158,"timestamp":"2025-11-04T14:32:05.092Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T14:32:05.092Z","totalPages":3,"totalTextLength":5143}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T14:32:05.093Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T15:28:19.375Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762270098853-571917361.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T15:28:19.376Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T15:28:19.378Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2697,"timestamp":"2025-11-04T15:28:24.376Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":282,"timestamp":"2025-11-04T15:28:24.396Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":2158,"timestamp":"2025-11-04T15:28:24.396Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T15:28:24.398Z","totalPages":3,"totalTextLength":5143}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T15:28:24.402Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T15:39:55.665Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762270795447-31811367.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T15:39:55.669Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T15:39:55.678Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T15:40:00.259Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T15:40:00.308Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T15:40:00.309Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T15:40:00.310Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T15:40:00.322Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T15:53:15.459Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762271595023-112370076.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T15:53:15.459Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T15:53:15.460Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2697,"timestamp":"2025-11-04T15:53:20.700Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":282,"timestamp":"2025-11-04T15:53:20.706Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":2158,"timestamp":"2025-11-04T15:53:20.707Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T15:53:20.707Z","totalPages":3,"totalTextLength":5143}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T15:53:20.708Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T17:33:29.355Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762277609136-457938969.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T17:33:29.356Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T17:33:29.361Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2697,"timestamp":"2025-11-04T17:33:34.511Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":282,"timestamp":"2025-11-04T17:33:34.512Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":2158,"timestamp":"2025-11-04T17:33:34.513Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T17:33:34.513Z","totalPages":3,"totalTextLength":5143}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T17:33:34.514Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T18:14:05.436Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762280045109-630242330.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T18:14:05.437Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T18:14:05.441Z"}
+{"level":"error","message":"Erro no OCR Space: Falha no processamento OCR","stack":"Error: Falha no processamento OCR\n    at OCRService.extractTextFromPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OCRService.processWithFallback (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\ocrService.js:154:25)\n    at async processPDF (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:196:23)\n    at async Object.processFile (C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\services\\fileProcessingService.js:57:17)\n    at async C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\routes\\uploadRoutes.js:107:21","timestamp":"2025-11-04T18:17:20.072Z"}
+{"level":"warn","message":"OCR Space falhou, usando método tradicional:","timestamp":"2025-11-04T18:17:20.075Z"}
+{"level":"info","message":"Tentando OCR Space primeiro...","timestamp":"2025-11-04T20:35:10.962Z"}
+{"filePath":"C:\\Users\\fabio.solbego\\Desktop\\inss\\uploads\\file-1762288510680-443074880.pdf","level":"info","message":"Iniciando OCR do PDF:","timestamp":"2025-11-04T20:35:10.965Z"}
+{"level":"info","message":"Enviando PDF para OCR Space...","options":{"OCREngine":2,"apikey":"K83313586788957","detectOrientation":true,"isOverlayRequired":false,"isSearchablePdfHideTextLayer":true,"isTable":true,"language":"por","scale":true},"timestamp":"2025-11-04T20:35:10.967Z"}
+{"confidence":true,"level":"info","message":"Página 1 processada:","textLength":2745,"timestamp":"2025-11-04T20:35:17.496Z"}
+{"confidence":true,"level":"info","message":"Página 2 processada:","textLength":2781,"timestamp":"2025-11-04T20:35:17.496Z"}
+{"confidence":true,"level":"info","message":"Página 3 processada:","textLength":1524,"timestamp":"2025-11-04T20:35:17.497Z"}
+{"isSearchablePdf":true,"level":"info","message":"OCR concluído:","timestamp":"2025-11-04T20:35:17.503Z","totalPages":3,"totalTextLength":7056}
+{"level":"info","message":"OCR Space bem-sucedido, usando resultado OCR","timestamp":"2025-11-04T20:35:17.504Z"}

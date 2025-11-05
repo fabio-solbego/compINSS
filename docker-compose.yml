@@ -1,0 +1,227 @@
+# 🚀 DOCKER COMPOSE ENTERPRISE - INSS COMPARADOR
+# Orquestração completa com todos os serviços
+
+version: '3.8'
+
+services:
+  # ========================================
+  # 🌐 Aplicação Principal
+  # ========================================
+  inss-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    container_name: inss-comparador-app
+    restart: unless-stopped
+    ports:
+      - "3021:3021"
+    environment:
+      - NODE_ENV=production
+      - PORT=3021
+      - DB_HOST=mysql-db
+      - DB_PORT=3306
+      - DB_NAME=inss_b
+      - DB_USER=inss_user
+      - DB_PASSWORD=inss_secure_password_2024
+      - REDIS_URL=redis://redis-cache:6379
+      - JWT_SECRET=your-super-secret-jwt-key-change-in-production
+      - OCR_API_KEY=${OCR_API_KEY}
+      - LOG_LEVEL=info
+    volumes:
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+      - ./temp:/app/temp
+    depends_on:
+      mysql-db:
+        condition: service_healthy
+      redis-cache:
+        condition: service_healthy
+    networks:
+      - inss-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3021/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # ========================================
+  # 💾 Banco de Dados MySQL
+  # ========================================
+  mysql-db:
+    image: mysql:8.0
+    container_name: inss-mysql-db
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_secure_password_2024
+      - MYSQL_DATABASE=inss_b
+      - MYSQL_USER=inss_user
+      - MYSQL_PASSWORD=inss_secure_password_2024
+      - MYSQL_CHARACTER_SET_SERVER=utf8mb4
+      - MYSQL_COLLATION_SERVER=utf8mb4_unicode_ci
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./database/init:/docker-entrypoint-initdb.d
+      - ./database/config/my.cnf:/etc/mysql/conf.d/my.cnf
+    ports:
+      - "3306:3306"
+    networks:
+      - inss-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "inss_user", "-pinss_secure_password_2024"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    command: --default-authentication-plugin=mysql_native_password
+
+  # ========================================
+  # 🔄 Redis Cache
+  # ========================================
+  redis-cache:
+    image: redis:7-alpine
+    container_name: inss-redis-cache
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+      - ./database/redis/redis.conf:/usr/local/etc/redis/redis.conf
+    networks:
+      - inss-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+  # ========================================
+  # 📊 Prometheus Monitoring
+  # ========================================
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: inss-prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    networks:
+      - inss-network
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+
+  # ========================================
+  # 📈 Grafana Dashboard
+  # ========================================
+  grafana:
+    image: grafana/grafana:latest
+    container_name: inss-grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin_secure_password_2024
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+    networks:
+      - inss-network
+    depends_on:
+      - prometheus
+
+  # ========================================
+  # 🔍 Elasticsearch (Logs)
+  # ========================================
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: inss-elasticsearch
+    restart: unless-stopped
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    networks:
+      - inss-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ========================================
+  # 📋 Kibana (Log Visualization)
+  # ========================================
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.0
+    container_name: inss-kibana
+    restart: unless-stopped
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    networks:
+      - inss-network
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  # ========================================
+  # 🔄 Nginx Reverse Proxy
+  # ========================================
+  nginx:
+    image: nginx:alpine
+    container_name: inss-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+      - ./logs/nginx:/var/log/nginx
+    networks:
+      - inss-network
+    depends_on:
+      - inss-app
+
+# ========================================
+# 📦 Volumes Persistentes
+# ========================================
+volumes:
+  mysql-data:
+    driver: local
+  redis-data:
+    driver: local
+  prometheus-data:
+    driver: local
+  grafana-data:
+    driver: local
+  elasticsearch-data:
+    driver: local
+
+# ========================================
+# 🌐 Rede Interna
+# ========================================
+networks:
+  inss-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

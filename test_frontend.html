@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Frontend - INSS</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .data-table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+        .data-table th, .data-table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        .data-table th { background-color: #f2f2f2; }
+        .data-summary { margin: 10px 0; font-weight: bold; color: #333; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Teste Frontend - Sistema INSS</h1>
+    
+    <div class="test-section">
+        <h2>📊 Teste de Dados Excel</h2>
+        <div id="excel-test-container"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📄 Teste de Dados PDF</h2>
+        <div id="pdf-test-container"></div>
+    </div>
+
+    <script>
+        // Simular dados extraídos do Excel (formato do novo processador)
+        const mockExcelData = [
+            {
+                company: "DIMED SANTA MARIA DISTRIBUIDORA DE MEDICAMENTOS LTDA",
+                position: "Não informado",
+                start_date: "1990-05-14",
+                end_date: "1990-06-12",
+                duration_days: 29,
+                source_format: "excel_tabular_v3",
+                linha_origem: 15,
+                extraction_method: "tabular_extraction"
+            },
+            {
+                company: "VIACAO DOM ANTONIO LTDA",
+                position: "Não informado", 
+                start_date: "1990-08-13",
+                end_date: "1990-11-10",
+                duration_days: 89,
+                source_format: "excel_tabular_v3",
+                linha_origem: 16,
+                extraction_method: "tabular_extraction"
+            },
+            {
+                company: "PIRELLI PNEUS LTDA.",
+                position: "Não informado",
+                start_date: "1995-01-02", 
+                end_date: "2006-09-15",
+                duration_days: 4274,
+                source_format: "excel_tabular_v3",
+                linha_origem: 19,
+                extraction_method: "tabular_extraction"
+            }
+        ];
+
+        // Simular dados extraídos do PDF
+        const mockPdfData = [
+            {
+                company: "SINTY SIL INDUSTRIA DO VESTUARIO LTDA",
+                role: "Não informado",
+                start_date: "1988-07-06",
+                end_date: "1988-10-03", 
+                normalized: {
+                    duration_days: 89,
+                    company_normalized: "SINTY SIL INDUSTRIA DO VESTUARIO LTDA"
+                }
+            },
+            {
+                company: "PIRELLI PNEUS LTDA",
+                role: "Não informado",
+                start_date: "1995-01-02",
+                end_date: "2006-09-15",
+                normalized: {
+                    duration_days: 4274,
+                    company_normalized: "PIRELLI PNEUS LTDA"
+                }
+            }
+        ];
+
+        // Função formatDate (copiada do script.js)
+        function formatDate(dateString) {
+            if (!dateString) return '-';
+            
+            try {
+                // Se já está no formato DD/MM/YYYY, retornar como está
+                if (typeof dateString === 'string' && /^\d{2}\/\d{2}\/\d{4}$/.test(dateString)) {
+                    return dateString;
+                }
+                
+                // Se está no formato YYYY-MM-DD, converter para DD/MM/YYYY
+                if (typeof dateString === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
+                    const [year, month, day] = dateString.split('-');
+                    return `${day}/${month}/${year}`;
+                }
+                
+                // Tentar converter como Date
+                const date = new Date(dateString);
+                if (isNaN(date.getTime())) {
+                    return dateString; // Retornar original se não conseguir converter
+                }
+                
+                return date.toLocaleDateString('pt-BR');
+            } catch (error) {
+                console.warn('Erro ao formatar data:', dateString, error);
+                return dateString || '-';
+            }
+        }
+
+        function calculateDays(startDate, endDate) {
+            if (!startDate || !endDate) return 0;
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+            const diffTime = Math.abs(end - start);
+            return Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+        }
+
+        // Função createDataTable (copiada e adaptada do script.js)
+        function createDataTable(data, source) {
+            console.log('📊 Criando tabela para:', source, 'com', data.length, 'períodos');
+            
+            let html = `
+                <div class="data-summary">
+                    <strong>${data.length} período(s) encontrado(s) no ${source}</strong>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Empresa</th>
+                            <th>Cargo</th>
+                            <th>Data Início</th>
+                            <th>Data Fim</th>
+                            <th>Duração</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            data.forEach((period, index) => {
+                console.log(`📝 Processando período ${index + 1}:`, period);
+                
+                // Extrair dados de forma mais robusta
+                const company = period.company || period.normalized?.company_normalized || 'Não informado';
+                const role = period.role || period.position || period.normalized?.role_normalized || 'Não informado';
+                
+                // Formatar datas de forma mais robusta
+                let startDate = 'Não informado';
+                let endDate = 'Não informado';
+                
+                if (period.start_date) {
+                    startDate = formatDate(period.start_date);
+                } else if (period.normalized?.start_date_parsed) {
+                    startDate = formatDate(period.normalized.start_date_parsed);
+                } else if (period.normalized?.data_inicio_original) {
+                    startDate = period.normalized.data_inicio_original;
+                }
+                
+                if (period.end_date) {
+                    endDate = formatDate(period.end_date);
+                } else if (period.normalized?.end_date_parsed) {
+                    endDate = formatDate(period.normalized.end_date_parsed);
+                } else if (period.normalized?.data_fim_original) {
+                    endDate = period.normalized.data_fim_original;
+                }
+                
+                // Calcular duração
+                let duration = 'N/A';
+                if (period.duration_days) {
+                    duration = `${period.duration_days} dias`;
+                } else if (period.normalized?.duration_days) {
+                    duration = `${period.normalized.duration_days} dias`;
+                } else if (period.start_date && period.end_date) {
+                    const days = calculateDays(period.start_date, period.end_date);
+                    duration = `${days} dias`;
+                }
+                
+                html += `
+                    <tr>
+                        <td title="${period.raw_text || ''}">${company}</td>
+                        <td>${role}</td>
+                        <td>${startDate}</td>
+                        <td>${endDate}</td>
+                        <td>${duration}</td>
+                    </tr>
+                `;
+            });
+            
+            html += `
+                    </tbody>
+                </table>
+            `;
+            
+            return html;
+        }
+
+        // Executar testes
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🧪 Iniciando testes frontend...');
+            
+            // Testar dados Excel
+            const excelContainer = document.getElementById('excel-test-container');
+            try {
+                const excelHtml = createDataTable(mockExcelData, 'Excel');
+                excelContainer.innerHTML = excelHtml;
+                console.log('✅ Teste Excel OK');
+            } catch (error) {
+                console.error('❌ Erro teste Excel:', error);
+                excelContainer.innerHTML = `<p style="color: red;">Erro: ${error.message}</p>`;
+            }
+            
+            // Testar dados PDF
+            const pdfContainer = document.getElementById('pdf-test-container');
+            try {
+                const pdfHtml = createDataTable(mockPdfData, 'PDF');
+                pdfContainer.innerHTML = pdfHtml;
+                console.log('✅ Teste PDF OK');
+            } catch (error) {
+                console.error('❌ Erro teste PDF:', error);
+                pdfContainer.innerHTML = `<p style="color: red;">Erro: ${error.message}</p>`;
+            }
+            
+            console.log('🎉 Testes concluídos!');
+        });
+    </script>
+</body>
+</html>

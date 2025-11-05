@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador INSS Pro - Análise Inteligente de Extratos Previdenciários</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Simples -->
+        <header class="simple-header">
+            <h1><i class="fas fa-file-contract"></i> Comparador INSS</h1>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section">
+                <div class="upload-container">
+                    <div class="upload-header">
+                        <h2>Upload de Arquivos</h2>
+                    </div>
+                    
+                    <form id="upload-form" class="upload-form">
+                        <div class="upload-grid">
+                            <!-- PDF Upload -->
+                            <div class="upload-card" id="pdf-upload-card">
+                                <div class="upload-icon">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <h3 class="upload-title">Extrato INSS (PDF)</h3>
+                                <p class="upload-description">
+                                    Seu extrato previdenciário oficial do INSS
+                                </p>
+                                <div class="upload-area" id="pdf-upload-area">
+                                    <input type="file" id="pdf-file" name="pdf" accept=".pdf" required>
+                                    <div class="upload-placeholder">
+                                        <i class="fas fa-plus"></i>
+                                        <span>Clique ou arraste o PDF aqui</span>
+                                    </div>
+                                    <div class="upload-success" id="pdf-success" style="display: none;">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span class="file-name"></span>
+                                        <button type="button" class="remove-file" onclick="removeFile('pdf')">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="upload-requirements">
+                                    <small>
+                                        <i class="fas fa-info-circle"></i>
+                                        Máximo 50MB • Formato PDF
+                                    </small>
+                                </div>
+                            </div>
+
+                            <!-- Excel Upload -->
+                            <div class="upload-card" id="excel-upload-card">
+                                <div class="upload-icon">
+                                    <i class="fas fa-file-excel"></i>
+                                </div>
+                                <h3 class="upload-title">Planilha de Períodos</h3>
+                                <p class="upload-description">
+                                    Planilha Excel com seus períodos de trabalho
+                                </p>
+                                <div class="upload-area" id="excel-upload-area">
+                                    <input type="file" id="excel-file" name="excel" accept=".xlsx,.xls" required>
+                                    <div class="upload-placeholder">
+                                        <i class="fas fa-plus"></i>
+                                        <span>Clique ou arraste o Excel aqui</span>
+                                    </div>
+                                    <div class="upload-success" id="excel-success" style="display: none;">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span class="file-name"></span>
+                                        <button type="button" class="remove-file" onclick="removeFile('excel')">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="upload-requirements">
+                                    <small>
+                                        <i class="fas fa-info-circle"></i>
+                                        Máximo 50MB • Formato XLSX/XLS
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="upload-actions">
+                            <button type="submit" class="btn btn-primary btn-large" id="extract-btn" disabled>
+                                <i class="fas fa-search"></i>
+                                <span class="btn-text">Extrair Dados dos Arquivos</span>
+                                <div class="btn-loader" style="display: none;">
+                                    <i class="fas fa-spinner fa-spin"></i>
+                                </div>
+                            </button>
+                            <p class="upload-note">
+                                <i class="fas fa-lock"></i>
+                                Seus arquivos são processados localmente e não são armazenados
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Extracted Data Section -->
+            <section class="extracted-data-section" id="extracted-data-section" style="display: none;">
+                <div class="extracted-container">
+                    <div class="extracted-header">
+                        <h2 class="section-title">
+                            <i class="fas fa-database"></i>
+                            Dados Extraídos dos Arquivos
+                        </h2>
+                        <p class="section-subtitle">
+                            Verifique os dados extraídos antes de prosseguir com a comparação
+                        </p>
+                    </div>
+                    
+                    <div class="extracted-grid">
+                        <!-- PDF Data -->
+                        <div class="extracted-card">
+                            <div class="card-header">
+                                <h3><i class="fas fa-file-pdf"></i> Dados do PDF (INSS)</h3>
+                            </div>
+                            <div class="extracted-content" id="pdf-extracted-data">
+                                <div class="no-data">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>Nenhum dado extraído ainda</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Excel Data -->
+                        <div class="extracted-card">
+                            <div class="card-header">
+                                <h3><i class="fas fa-file-excel"></i> Dados da Planilha</h3>
+                            </div>
+                            <div class="extracted-content" id="excel-extracted-data">
+                                <div class="no-data">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>Nenhum dado extraído ainda</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-actions" id="comparison-actions" style="display: none;">
+                        <button class="btn btn-success btn-large" id="compare-btn">
+                            <i class="fas fa-balance-scale"></i>
+                            <span>Comparar Dados Extraídos</span>
+                        </button>
+                        <button class="btn btn-outline" id="edit-data-btn">
+                            <i class="fas fa-edit"></i>
+                            <span>Editar Dados</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History Section -->
+            <section class="history-section" id="history-section">
+                <div class="history-container">
+                    <div class="history-header">
+                        <h2>Histórico de Comparações</h2>
+                        <button class="btn btn-outline" id="refresh-history">
+                            <i class="fas fa-sync-alt"></i>
+                            Atualizar
+                        </button>
+                    </div>
+                    <div class="history-content" id="history-content">
+                        <div class="no-data">
+                            <i class="fas fa-history"></i>
+                            <p>Nenhuma comparação realizada ainda</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Progress Section -->
+            <section class="progress-section" id="progress-section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-cog fa-spin"></i> Processamento</h2>
+                    </div>
+                    
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-fill"></div>
+                        </div>
+                        <div class="progress-text" id="progress-text">Iniciando processamento...</div>
+                    </div>
+                    
+                    <div class="status-logs" id="status-logs">
+                        <h3>Status do Processamento:</h3>
+                        <div class="logs-container" id="logs-container"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="results-section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-chart-bar"></i> 🏛️ Análise Especializada INSS Enterprise</h2>
+                    </div>
+                    
+                    <div class="results-summary" id="results-summary">
+                        <!-- Summary will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="comparison-actions" id="comparison-actions">
+                        <button id="compare-btn" class="btn btn-primary">
+                            <i class="fas fa-balance-scale"></i>
+                            Comparar Períodos
+                        </button>
+                        <button id="export-excel-btn" class="btn btn-success">
+                            <i class="fas fa-file-excel"></i>
+                            Exportar para Excel
+                        </button>
+                    </div>
+                    
+                    <!-- Botões desnecessários removidos - mantido apenas Exportar para Excel -->
+                </div>
+            </section>
+
+            <!-- Details Section -->
+            <section class="details-section" id="details-section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-list-alt"></i> Detalhes da Comparação</h2>
+                    </div>
+                    
+                    <div class="details-tabs">
+                        <button class="tab-btn active" data-tab="matches">Correspondências</button>
+                        <button class="tab-btn" data-tab="excel-only">Apenas Excel</button>
+                        <button class="tab-btn" data-tab="pdf-only">Apenas PDF</button>
+                        <button class="tab-btn" data-tab="conflicts">Conflitos</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div id="matches-tab" class="tab-pane active">
+                            <div class="table-container" id="matches-table"></div>
+                        </div>
+                        <div id="excel-only-tab" class="tab-pane">
+                            <div class="table-container" id="excel-only-table"></div>
+                        </div>
+                        <div id="pdf-only-tab" class="tab-pane">
+                            <div class="table-container" id="pdf-only-table"></div>
+                        </div>
+                        <div id="conflicts-tab" class="tab-pane">
+                            <div class="table-container" id="conflicts-table"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History Section -->
+            <section class="history-section">
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-history"></i> Histórico de Comparações</h2>
+                        <button class="btn btn-outline" id="refresh-history">
+                            <i class="fas fa-sync-alt"></i>
+                            Atualizar
+                        </button>
+                    </div>
+                    
+                    <div class="history-container" id="history-container">
+                        <!-- History will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Comparador INSS - Sistema desenvolvido pela Software House Enterprise</p>
+        </footer>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay" style="display: none;">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Processando...</p>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

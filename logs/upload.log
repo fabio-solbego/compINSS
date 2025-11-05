@@ -1,0 +1,117 @@
+{"filename":"1761766048157_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T19:27:28.165Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:27:28.198Z","uploadId":1}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T19:27:28.672Z","uploadId":1}
+{"filename":"1761766048677_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T19:27:28.681Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:27:28.691Z","uploadId":2}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T19:27:28.918Z","uploadId":2}
+{"filename":"1761766463742_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T19:34:23.748Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:34:23.762Z","uploadId":3}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T19:34:23.950Z","uploadId":3}
+{"filename":"1761766463977_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T19:34:23.981Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:34:24.013Z","uploadId":4}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T19:34:24.496Z","uploadId":4}
+{"filename":"1761766644615_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T19:37:24.629Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:37:24.778Z","uploadId":5}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T19:37:26.006Z","uploadId":5}
+{"filename":"1761766646363_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T19:37:26.365Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:37:26.661Z","uploadId":6}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T19:37:27.945Z","uploadId":6}
+{"filename":"1761767623684_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T19:53:43.694Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:53:43.728Z","uploadId":7}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T19:53:44.524Z","uploadId":7}
+{"filename":"1761767624636_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T19:53:44.643Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:53:44.821Z","uploadId":8}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T19:53:45.297Z","uploadId":"7"}
+{"error":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3","level":"error","message":"Erro no processamento do arquivo:","timestamp":"2025-10-29T19:53:47.327Z","uploadId":8}
+{"level":"error","message":"Erro ao buscar períodos do upload: EmploymentPeriod is not defined","stack":"ReferenceError: EmploymentPeriod is not defined\n    at C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\controllers\\uploadController.js:260:21\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-29T19:53:47.663Z"}
+{"filename":"1761767838667_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T19:57:18.689Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T19:57:18.836Z","uploadId":9}
+{"level":"error","message":"Erro no upload: processFile is not defined","stack":"ReferenceError: processFile is not defined\n    at C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\controllers\\uploadController.js:99:5\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-29T19:57:18.847Z"}
+{"filename":"1761768642917_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:10:42.934Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:10:43.113Z","uploadId":10}
+{"level":"error","message":"Erro no upload: processFile is not defined","stack":"ReferenceError: processFile is not defined\n    at C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\controllers\\uploadController.js:99:5\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-29T20:10:43.169Z"}
+{"filename":"1761768645185_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:10:45.188Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:10:45.301Z","uploadId":11}
+{"level":"error","message":"Erro no upload: processFile is not defined","stack":"ReferenceError: processFile is not defined\n    at C:\\Users\\fabio.solbego\\Desktop\\inss\\src\\controllers\\uploadController.js:99:5\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-29T20:10:45.435Z"}
+{"filename":"1761768974060_EXTRATO__1_.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO (1).pdf","size":53890,"timestamp":"2025-10-29T20:16:14.076Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:16:14.111Z","uploadId":12}
+{"filename":"1761768974578_COMPARATIVO_PLANILHA_TS__1_.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS (1).xlsx","size":13701,"timestamp":"2025-10-29T20:16:14.591Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:16:14.609Z","uploadId":13}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:16:14.888Z","uploadId":"12"}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:16:15.126Z","uploadId":"12"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:16:15.155Z","uploadId":13}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:16:15.161Z","uploadId":"13"}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:16:15.171Z","uploadId":"13"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:16:20.130Z","uploadId":12}
+{"filename":"1761769528393_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:25:28.413Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:25:28.455Z","uploadId":14}
+{"filename":"1761769528654_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T20:25:28.665Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:25:28.712Z","uploadId":15}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:25:28.747Z","uploadId":"14"}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:25:28.850Z","uploadId":"14"}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:25:29.282Z","uploadId":"15"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:25:29.296Z","uploadId":15}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:25:29.305Z","uploadId":"15"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:25:33.453Z","uploadId":14}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:30:18.050Z","uploadId":"14"}
+{"count":37,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:30:18.112Z","uploadId":"14"}
+{"filename":"1761770221481_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:37:01.495Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:37:01.520Z","uploadId":16}
+{"filename":"1761770221714_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T20:37:01.716Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:37:01.786Z","uploadId":17}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:37:02.074Z","uploadId":"16"}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:37:02.357Z","uploadId":"16"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:37:02.364Z","uploadId":17}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:37:02.381Z","uploadId":"17"}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:37:02.385Z","uploadId":"17"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:37:07.879Z","uploadId":16}
+{"filename":"1761770715593_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:45:15.602Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:45:15.643Z","uploadId":18}
+{"filename":"1761770716049_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T20:45:16.058Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:45:16.078Z","uploadId":19}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:45:16.444Z","uploadId":"18"}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:45:16.474Z","uploadId":"18"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:45:16.483Z","uploadId":19}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:45:16.497Z","uploadId":"19"}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:45:16.502Z","uploadId":"19"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:45:21.148Z","uploadId":18}
+{"filename":"1761770935216_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:48:55.221Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:48:55.246Z","uploadId":20}
+{"filename":"1761770935493_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T20:48:55.496Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:48:55.515Z","uploadId":21}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:48:55.955Z","uploadId":"20"}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:48:55.984Z","uploadId":"20"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:48:56.014Z","uploadId":21}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:48:56.024Z","uploadId":"21"}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:48:56.033Z","uploadId":"21"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:49:00.353Z","uploadId":20}
+{"filename":"1761771181095_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:53:01.103Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:53:01.157Z","uploadId":22}
+{"filename":"1761771182373_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T20:53:02.379Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:53:02.439Z","uploadId":23}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:53:02.582Z","uploadId":"22"}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:53:02.927Z","uploadId":"22"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:53:03.051Z","uploadId":23}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:53:03.437Z","uploadId":"23"}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:53:03.538Z","uploadId":"23"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:53:07.300Z","uploadId":22}
+{"filename":"1761771493774_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T20:58:13.783Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:58:13.809Z","uploadId":24}
+{"filename":"1761771493877_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T20:58:13.885Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T20:58:13.899Z","uploadId":25}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:58:14.077Z","uploadId":"24"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:58:14.103Z","uploadId":25}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:58:14.105Z","uploadId":"24"}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T20:58:14.138Z","uploadId":"25"}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T20:58:14.150Z","uploadId":"25"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T20:58:18.978Z","uploadId":24}
+{"filename":"1761771605183_EXTRATO.pdf","level":"info","message":"Arquivo recebido:","mimetype":"application/pdf","originalName":"EXTRATO.pdf","size":53890,"timestamp":"2025-10-29T21:00:05.245Z"}
+{"fileType":"pdf","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T21:00:05.609Z","uploadId":26}
+{"filename":"1761771606059_COMPARATIVO_PLANILHA_TS.xlsx","level":"info","message":"Arquivo recebido:","mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","originalName":"COMPARATIVO PLANILHA TS.xlsx","size":13701,"timestamp":"2025-10-29T21:00:06.061Z"}
+{"fileType":"excel","level":"info","message":"Upload salvo no banco:","timestamp":"2025-10-29T21:00:06.438Z","uploadId":27}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T21:00:07.023Z","uploadId":"26"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T21:00:07.339Z","uploadId":27}
+{"count":0,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T21:00:08.002Z","uploadId":"26"}
+{"level":"info","message":"Buscando períodos do upload:","timestamp":"2025-10-29T21:00:08.276Z","uploadId":"27"}
+{"count":8,"level":"info","message":"Períodos encontrados:","timestamp":"2025-10-29T21:00:08.304Z","uploadId":"27"}
+{"level":"info","message":"Processamento do arquivo concluído:","timestamp":"2025-10-29T21:00:12.002Z","uploadId":26}
